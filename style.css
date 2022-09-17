@@ -1,0 +1,47 @@
+body {
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: linear-gradient(#9aa3a8,#457b9d); */
+    background-color: #343a40;
+}
+
+
+.card {
+    width: 350px;
+    margin: auto;
+    border-bottom: 2px solid blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background: #ddebf8; */
+    background-color: #faf9f9;
+    color: #2b2839;
+    box-shadow: 0 0 5px 1px white;
+    cursor: pointer;
+}
+
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name, .occupation, .location
+{
+    transition: all 0.5s;
+}
+.name:hover, .occupation:hover, .location:hover{
+    text-decoration: underline;
+    color: #023047;
+    transform: scale(1.1);
+} 
